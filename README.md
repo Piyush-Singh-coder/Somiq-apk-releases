@@ -12,7 +12,7 @@
 
   <br />
 
-  [**Download Latest APK**](https://github.com/Piyush-Singh-coder/Somiq-apk-releases/releases/latest/download/somiq-app.apk) • [**All Releases**](https://github.com/Piyush-Singh-coder/Somiq-apk-releases/releases) • [**Official Website**](https://somiq.veriqlabs.com)
+  [**Download Latest APK**](https://github.com/Piyush-Singh-coder/Somiq-apk-releases/releases/download/v1.0.0/somiq-app.apk) • [**All Releases**](https://github.com/Piyush-Singh-coder/Somiq-apk-releases/releases) • [**Official Website**](https://somiq.veriqlabs.com)
 
 </div>
 

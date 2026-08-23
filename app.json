@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Somiq",
+    "slug": "veriq-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "updates": {
+      "url": "https://u.expo.dev/de9e6c5e-f7dc-4d05-bb96-0da5cbee2cc6",
+      "fallbackToCacheTimeout": 0
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0E1A"
+    },
+    "userInterfaceStyle": "automatic",
+    "scheme": "somiq",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.veriqai.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.veriqai.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0F1A",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-share-intent",
+      "expo-font",
+      "expo-notifications",
+      "expo-image-picker",
+      "expo-updates"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "de9e6c5e-f7dc-4d05-bb96-0da5cbee2cc6"
+      }
+    }
+  }
+}

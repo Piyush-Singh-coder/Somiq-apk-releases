@@ -1,0 +1,59 @@
+{
+  "cli": {
+    "version": ">= 10.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_BACKEND_URL": "https://veriq-ai-backend.onrender.com",
+        "EXPO_PUBLIC_RAZORPAY_KEY_ID": "rzp_test_T1wTSZdyedjpjY"
+      }
+    },
+    "apk": {
+      "android": {
+        "buildType": "apk"
+      },
+      "node": "22.13.0",
+      "autoIncrement": true,
+      "channel": "production",
+      "env": {
+        "EXPO_PUBLIC_BACKEND_URL": "https://veriq-ai-backend.onrender.com",
+        "EXPO_PUBLIC_RAZORPAY_KEY_ID": "rzp_live_T970MwPAefRz9r"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "channel": "production",
+      "env": {
+        "EXPO_PUBLIC_BACKEND_URL": "https://veriq-ai-backend.onrender.com",
+        "EXPO_PUBLIC_RAZORPAY_KEY_ID": "rzp_live_T970MwPAefRz9r"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "autoIncrement": true,
+      "channel": "production",
+      "env": {
+        "EXPO_PUBLIC_BACKEND_URL": "https://veriq-ai-backend.onrender.com",
+        "EXPO_PUBLIC_RAZORPAY_KEY_ID": "rzp_live_T970MwPAefRz9r"
+      }
+    },
+    "simulator": {
+      "ios": {
+        "simulator": true
+      },
+      "autoIncrement": true,
+      "channel": "production",
+      "env": {
+        "EXPO_PUBLIC_BACKEND_URL": "https://veriq-ai-backend.onrender.com",
+        "EXPO_PUBLIC_RAZORPAY_KEY_ID": "rzp_live_T970MwPAefRz9r"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
